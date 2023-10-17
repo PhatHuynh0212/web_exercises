@@ -15,25 +15,25 @@
     </head>
     <body>
 
-        <div class="container">
-            <div class="glass-container">
-                <nav class="navbar navbar-expand-sm bg-transparent">
-                    <div class="logo col-12 col-md-7" >
+        <div class="container d-flex justify-content-center">
+            <div class="glass-container d-block mb-lg-3">
+                <nav class="navbar d-flex justify-content-between navbar-expand-sm bg-transparent">
+                    <div class="logo d-inline-block" >
                         <a href="#">Portfolio</a>
                     </div>
-                    <ul class="nav-links col-6 col-md-5">
-                        <li class="nav-link col"><a href="#">Home</a></li>
-                        <li class="nav-link col"><a href="#about">About</a></li>    
-                        <li class="nav-link col"><a href="#contact">Contact</a></li>
+                    <ul class="nav-links d-flex list-unstyled me-md-5">
+                        <li class="nav-link col d-inline-block"><a href="#">Home</a></li>
+                        <li class="nav-link col d-inline-block"><a href="#about">About</a></li>    
+                        <li class="nav-link col d-inline-block"><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
-                <div class="content">
-                    <div class="main">
-                        <h2 class="col-md-8">Hello! 👋,<br />I'm Huynh Phat</h2>
-                        <p class="col-md-12">
+                <div class="content d-flex w-100">
+                    <div class="main d-inline-block p-lg-2 mt-5" style="margin-left: 2vw;">
+                        <h2 class="col-md-6">Hello! 👋,<br />I'm Huynh Phat</h2><hr>
+                        <p class="col-md-12" style="line-height: 25px;">
                             I'm studying in UEH university and learning Software Engineer.
                             <br />
-                            <div id="about" class="alert alert-primary" role="alert">About my skills</div>
+                            <div id="about" class="alert alert-primary align-content-center" role="alert" style="width: 150px; border-radius: 15px;">About my skills</div>
                             <ul>
                                 <li>Coding : HTML <i class="fa-brands fa-html5"></i>
                                     , CSS <i class="fa-brands fa-css3"></i>
@@ -44,8 +44,8 @@
                                 <li>Hobbies : Playing game, Badminton, Football</li>
                             </ul>
                         </p>
-                        <button type="button" class="btn btn-info">See More Profile</button>
-                        <div id="contact">
+                        <button type="button" class="btn btn-info w-100 mt-5 bg-transparent" style="border-radius: 90px; color: #fff;">See More Profile</button>
+                        <div id="contact" class="mt-md-4 d-flex flex-column float-end">
                             <p class="col-md-14">Contact me :</p>
                             <div class="icon">
                                 <a class="col-md-2 m-2" href="https://www.facebook.com/profile.php?id=100007406028501"><i class="fa-brands fa-facebook fa-lg"></i></a>
@@ -54,8 +54,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="image-wrapper">
-                        <img class="img-thumbnail" src="./image.jpg" alt="image" />
+                    <div class="image-wrapper" style="margin-left: 6vw;">
+                        <img class="img-thumbnail mt-4" src="./image.jpg" alt="image" style="max-width: 500px;"/>
                     </div>
                 </div>
             </div>
