@@ -58,15 +58,16 @@ button:hover {
         flex-direction: column;
     }
     #contact {
-        flex-direction: row;
+        flex-direction: row !important;
+        margin-top: 20px;
     }
-    .image-wrapper img {
+    img {
         margin-left: 2vw;
-        max-width: 450px;
+        max-width: 450px !important ;
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 870px) {
     .logo {
         font-size: 20px;
     }
@@ -83,6 +84,6 @@ button:hover {
         font-size: 13px;
     }
     img {
-        max-width: 300px;
+        max-width: 350px !important;
     }
 }
