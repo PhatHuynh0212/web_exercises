@@ -65,7 +65,7 @@ submitBtn.onclick = (e) => {
     };
 
     if (!isValid(record)) {
-        alert("Please, fill in the missing element!");
+        alert("Please, enter the missing element!");
         return;
     }
 

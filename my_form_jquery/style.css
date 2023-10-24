@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+* {
+    font-family: "Quicksand", sans-serif;
+}
+
+body {
+    padding-top: 7vh;
+    color: #fff;
+    background: url(./img.jpg), no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.glass-container {
+    width: 80vw;
+    margin: 0 auto;
+    padding: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    display: flex;
+}
+
+.logo {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.main {
+    margin: 0 auto 15px;
+}
+
+.content p {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.age,
+.name {
+    width: 100%;
+    height: 40px;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 99px;
+    background: transparent;
+    color: #fff;
+    outline: none;
+}
+
+input::placeholder {
+    color: #fff;
+    font-size: 13px;
+}
+
+.sex-item,
+.hobby-item {
+    margin-left: 20px;
+}
+
+button {
+    width: 45%;
+    height: 40px;
+    font-size: 15px;
+    transition: all 0.5 ease;
+}
+
+button:hover {
+    color:black !important;
+    border-color: #ffe599 !important;
+    background-color: #ffe599 !important;
+}
+
+.account_name {
+    border-left: 1px dotted #ffe599;
+    width: 50%;
+}
+
+.result {
+    margin-left: 15px;
+}
+
+@media screen and (max-width: 1050px) {
+    .logo {
+        text-align: center;
+        font-size: 30px;
+    }
+    .content p {
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .choose-box {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .glass-container {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .form_signIn {
+        width: 100% !important;
+    }
+    .account_name {
+        border-top: 1px dotted #e7a6a6;
+        border-left: none;
+        width: 100% !important;
+        margin-top: 50px;
+        padding-top: 20px;
+    }
+    .choose-box {
+        flex-direction: row;
+    }
+}
