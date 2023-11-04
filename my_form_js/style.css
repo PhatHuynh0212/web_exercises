@@ -109,7 +109,4 @@ button:hover {
         margin-top: 50px;
         padding-top: 20px;
     }
-    .choose-box {
-        flex-direction: row;
-    }
 }

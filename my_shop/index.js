@@ -43,7 +43,7 @@ const renderList = () => {
     if (items.length > 0) {
         items.forEach((item) => {
             result += `<div class="col-lg-4">
-        <div class=" mb-4 shadow-sm">
+        <div class="mb-4 shadow-sm">
             <div class="card-body">
                 <p class="text-center text-danger">${item}</p>
             </div>
